@@ -4,8 +4,8 @@ class CreateCustomers < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :location
       t.integer :contact
-      t.integer :total
       t.string :comment
+      t.timestamps 
     end
   end
 end

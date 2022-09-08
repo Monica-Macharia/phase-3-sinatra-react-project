@@ -1,3 +1,4 @@
 class Customer < ActiveRecord::Base
-    has_many :salespersons
+    has_many :tasks
+    has_many :salespersons, through::tasks
 end
