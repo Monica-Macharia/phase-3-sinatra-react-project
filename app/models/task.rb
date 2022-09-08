@@ -1,5 +1,5 @@
 class Task < ActiveRecord::Base
-    belongs_to :salesperson
+    belongs_to :employee
     belongs_to :customer
 
 end
