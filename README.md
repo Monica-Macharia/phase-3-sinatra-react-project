@@ -1,5 +1,7 @@
 # Phase 3 Project Guidelines
 
+A link to my frontend repository : https://github.com/Monica-Macharia/phase_3_project_frontend_setup/tree/master/my-app-frontend
+
 ## Learning Goals
 
 - Build a web basic API with Sinatra and Active Record to support a React
