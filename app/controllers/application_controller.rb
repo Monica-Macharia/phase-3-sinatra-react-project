@@ -55,12 +55,12 @@ class ApplicationController < Sinatra::Base
     task.to_json
   end
 
-  put '/customers/:id' do
-    customer = Customer.find(params[:id])
-    customer.update(
+  put '/tasks/:id' do
+    task = Task.find(params[:id])
+    task.update(
       price: params[:price]
     )
-    customer.to_json
+    task.to_json
   end
  
   
