@@ -12,7 +12,7 @@ A sales tracker with five routes to Home, Tasks, Customers, Employees and Popula
 
 #Guidelines
 
-A link to my frontend repository : https://github.com/Monica-Macharia/phase_3_project_frontend_setup/tree/master/my-app-frontend
+A link to my frontend repository :https://github.com/Monica-Macharia/salestracker_frontend
 
 A live link to the application hosted on Netlify()
 
