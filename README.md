@@ -14,7 +14,7 @@ A sales tracker with five routes to Home, Tasks, Customers, Employees and Popula
 
 A link to my frontend repository :https://github.com/Monica-Macharia/salestracker_frontend
 
-A live link to the application hosted on Netlify()
+A live link to the application hosted on Vercel and heroku (https://salestracker-frontend.vercel.app/)
 
 ## Learning Goals
 
