@@ -1,5 +1,4 @@
-source "https://rubygems.org/"
-ruby "2.7.4"
+source "https://rubygems.org"
 
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
@@ -30,7 +29,7 @@ gem "sinatra-activerecord", "~> 2.0"
 gem "rake", "~> 13.0"
 
 # Provides functionality to interact with a SQLite3 database
-# gem "sqlite3", "~> 1.4"
+gem "sqlite3", "~> 1.4"
 
 # Require all files in a folder
 gem "require_all", "~> 3.0"
@@ -51,9 +50,3 @@ group :test do
   gem "rspec", "~> 3.10"
   gem "rspec-json_expectations", "~> 2.2"
 end
-#deployment
-group :production do
- gem 'pg', '~> 1.4', '>= 1.4.3'
-end
-
-gem 'sinatra-contrib', '~> 2.2', '>= 2.2.2',require: false
